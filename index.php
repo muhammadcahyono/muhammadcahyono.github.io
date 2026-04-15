@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Cahyono, M.Kom | IT Infrastructure & Solutions Expert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass { background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px); }
+        .hero-gradient { background: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%); }
+        .card-hover:hover { transform: translateY(-10px); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+    </style>
+</head>
+<body class="bg-[#020617] text-slate-200 selection:bg-blue-500/30">
+
+    <nav class="fixed w-full z-50 border-b border-white/5 glass">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-white">MC</div>
+                <span class="text-lg font-extrabold tracking-tight text-white">Cahyono<span class="text-blue-500">.</span></span>
+            </div>
+            <div class="hidden md:flex items-center space-x-10 text-[13px] font-semibold uppercase tracking-widest">
+                <a href="#hero" class="hover:text-blue-400 transition-colors">Beranda</a>
+                <a href="#services" class="hover:text-blue-400 transition-colors">Layanan</a>
+                <a href="#projects" class="hover:text-blue-400 transition-colors">Portofolio</a>
+                <a href="https://www.instagram.com/cahyacalm?igsh=djJjY3dsandrZmpy" 
+   target="_blank" 
+   class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-full transition-all shadow-lg shadow-blue-500/20">
+   Hubungi Saya
+</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="relative min-h-screen flex items-center pt-20 overflow-hidden hero-gradient">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <div class="z-10">
+                <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full text-blue-400 text-xs font-bold mb-6">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
+                    </span>
+                    <span>TERSEDIA UNTUK PROYEK STRATEGIS</span>
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-[800] text-white leading-[1.1] mb-8">
+                    Menghadirkan Solusi <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">IT Infrastruktur</span> Tanpa Batas.
+                </h1>
+                <p class="text-slate-400 text-lg mb-10 leading-relaxed max-w-lg">
+                    <span class="text-white font-semibold">Muhammad Cahyono, M.Kom.</span> Expert dalam arsitektur jaringan, manajemen server, dan pemulihan sistem kritikal dengan standar industri.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#projects" class="group bg-white text-slate-900 px-8 py-4 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition-all duration-300 flex items-center">
+                        Lihat Proyek 
+                        <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform"></i>
+                    </a>
+                    <div class="flex items-center space-x-4 ml-4">
+                        <a href="https://github.com/mcahyo-wq" target="_blank" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-white text-xl transition"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative flex justify-center lg:justify-end">
+                <div class="absolute -top-10 -right-10 w-64 h-64 bg-blue-600/20 blur-[100px]"></div>
+                <div class="absolute -bottom-10 -left-10 w-64 h-64 bg-emerald-600/10 blur-[100px]"></div>
+                
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 to-emerald-500 rounded-[2rem] rotate-6 opacity-20 group-hover:rotate-3 transition-transform duration-500"></div>
+                    <div class="relative w-72 h-72 lg:w-[400px] lg:h-[400px] bg-slate-800 rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl">
+                        <img 
+                            src="img/cahyo.jpeg" 
+                            alt="Muhammad Cahyono" 
+                            class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700"
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-950/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-blue-500 font-bold tracking-[0.2em] text-sm mb-4 uppercase text-center lg:text-left">Keahlian Teknis</h2>
+                <h3 class="text-3xl lg:text-4xl font-extrabold text-white text-center lg:text-left leading-tight">Layanan Profesional untuk<br>Transformasi Digital Anda.</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div>
+                    <h2 class="text-blue-500 font-bold tracking-[0.2em] text-sm mb-4 uppercase">Portofolio Terpilih</h2>
+                    <h3 class="text-3xl lg:text-4xl font-extrabold text-white leading-tight italic">"Crafting excellence in every cable and code."</h3>
+                </div>
+                <a href="#" class="text-blue-400 font-bold hover:text-blue-300 transition flex items-center">Lihat Semua Proyek <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i></a>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="group cursor-pointer">
+                    <div class="relative aspect-video rounded-3xl overflow-hidden mb-6 border border-white/10 shadow-2xl bg-slate-800">
+                        <img src="img/cahyo_cctv.webp" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-blue-500 text-[11px] font-bold uppercase tracking-widest px-3 py-1 bg-blue-500/10 rounded-full">Server Maintenance</span>
+                            <h4 class="text-2xl font-bold text-white mt-3">Data Center Efficiency Project</h4>
+                        </div>
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white text-xl group-hover:rotate-0 transition duration-300"></i>
+                    </div>
+                </div>
+
+                <div class="group cursor-pointer">
+                    <div class="relative aspect-video rounded-3xl overflow-hidden mb-6 border border-white/10 shadow-2xl bg-slate-800">
+                        <img src="img/server_cahyo.avif" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent opacity-80"></div>
+                    </div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <span class="text-emerald-500 text-[11px] font-bold uppercase tracking-widest px-3 py-1 bg-emerald-500/10 rounded-full">Security System</span>
+                            <h4 class="text-2xl font-bold text-white mt-3">Next-Gen CCTV & Network Security</h4>
+                        </div>
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white text-xl group-hover:rotate-0 transition duration-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </body>
+</html>
